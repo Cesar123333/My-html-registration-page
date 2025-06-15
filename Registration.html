@@ -1,0 +1,92 @@
+REGISTRATION
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MBC Emperor Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #111;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 20px;
+            background-color: #111;
+            color: gold;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>MBC Emperor Registration Form</h2>
+        <form action="https://formspree.io/f/xblyygow" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number (Whatsapp):</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality" required>
+                          
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program" required>
+                <option value="">--Select--</option>
+                <option value="English Language Mastery">English Language Mastery</option>
+                <option value="Translation">French-English Translation</option>
+                <option value="Interview Coaching">Interview Prep & Public Speaking</option>
+                <option value="African Literature">African Culture & Literature</option>
+                <option value="Online Coaching">Online Language Coaching</option>
+                <option value="Spiritual Education">Spiritual & Ethical Education</option>
+            </select>
+
+            <label for="message">Additional Message (Optional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+<section>
+                  Once you fill the form, submit it and wait for both our mail and Whatsapp message.
+</section>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+    </div>
+</body>
+</html>
